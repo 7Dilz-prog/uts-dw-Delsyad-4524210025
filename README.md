@@ -1,3 +1,7 @@
+Nama: Delsyad Iza
+NPM : 4524210025
+Topik: "Generator Kartu Spesifikasi Mobil"
+
 - [x] Repositori GitHub sudah dibuat
 - [x] Melakukan minimal 3 commit
 - [x] Menerapkan HTML Semantik (header, main, footer)
