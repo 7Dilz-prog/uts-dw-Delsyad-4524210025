@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Spesifikasi Mobil</title>
+    <link rel = "stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Formulir Pengisian Kartu Spesifikasi Mobil</h1>
+    <main class="main-container"></main>
+        <form action="/submit-vehicle" method="post">
+            <fieldset>
+                <legend>Informasi Pemilik Mobil</legend>
+
+                <p>
+                    <label for="owner-name">Nama Pemilik:</label><br>
+                    <input type="text" id="owner-name" name="owner_name" required maxlength="80">
+                </p>
+                <p>
+                    <label for="car-plate">Plat Nomor Mobil:</label><br>
+                    <input type="text" id="car-plate" name="car-plate">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Spesifikasi Mobil</legend>
+                <p>
+                    <label for="car-name">Nama Merek dan Jenis Mobil:</label><br>
+                    <input type="text" id="car-name" name="car-name" required maxlength="80">
+                <p>
+                    <label for="car-year">Tahun Mobil:</label><br>
+                    <input type="number" id="car-year" name="car-year">
+                </p>
+
+                <p>
+                    <label for="car-engine">Mesin yang digunakan:</label><br>
+                    <input type="text" id="car-engine" name="car-engine" required maxlength="80">
+                </p>
+
+                <p>
+                    <label for="engine-cc">Ukuran CC Mesin:</label><br>
+                    <input type="number" id="engine-cc" name="engine-cc">
+                </p>
+
+                <p>
+                    <label for="car-color">Warna Mobil:</label><br>
+                    <input type="text" id="car-color" name="car-color" required maxlength="80">
+                </p>
+                <p>
+                    <label for="car-photo">Unggah Foto Mobil Anda:</label><br>
+                    <input type="file" id="car-photo" name="car_photo" accept="image/*">
+                </p>
+            </fieldset>
+            <button type="submit">Kirim Spesifikasi</button>
+        </form>
+
+    <hr>
+    <div> 
+        <h2>Pratinjau</h2>
+        <article>
+            <header>
+                <h1>Kartu Spesifikasi Mobil </h1> 
+                <p id="preview-owner-name"> Pemilik Mobil...</p>
+                <p id="preview-car-plate"> Plat Mobil...</p>
+            </header>
+    
+            <div class="car-picture">
+                <figure>
+                <picture>
+                    <img src="" id="preview-car-photo" alt="Gambar Mobil"> 
+                </picture>
+
+        <p>
+            <label for="car-photo">Unggah Foto Mobil Anda:</label><br>
+            <input type="file" id="car-photo" name="car_photo" accept="image/*">
+        </p>
+    </fieldset>
+
+    <button type="submit">Kirim Spesifikasi</button>
+</form>
+
+<hr>
+<h2>Pratinjau</h2>
+
+<article>
+    <header>
+        <h1>Kartu Spesifikasi Mobil </h1> 
+        <p id="preview-owner-name"> Pemilik Mobil: ... </p>
+        <p id="preview-car-plate"> Plat Mobil...</p>
+    </header>
+    
+    <div class="car-picture">
+        <figure>
+           <picture>
+             <img src="" id="preview-car-photo" alt="Gambar Mobil"> 
+           </picture>
+        </figure>
+
+                <div class="spec-preview">
+                    <p id="preview-car-name">
+                        Nama mobil akan muncul disini
+                    </p>
+
+                    <p id="preview-car-year">
+                        Tahun mobil akan muncul disini
+                    </p>
+
+                    <p id="preview-car-engine">
+                        Jenis Mesin mobil akan muncul disini
+                    </p>
+
+                    <p id="preview-engine-cc">
+                        CC Mesin mobil akan muncul disini
+                    </p>
+
+                    <p id="preview-car-color">
+                        Warna mobil akan muncul disini
+                    </p>
+
+                </div>
+            </div>
+            <footer>
+                - Kartu ini menunjukan spesifikasi mobil yang dimiliki dan
+                berlaku <mark> selamanya </mark><br>
+                - Jika Ada perubahan spesifikasi maka wajib memperbarui Kartu ini!
+            </footer>
+        </article>
+    </div>
+
+</main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
