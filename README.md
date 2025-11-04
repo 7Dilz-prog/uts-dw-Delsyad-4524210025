@@ -1,7 +1,7 @@
 - [x] Repositori GitHub sudah dibuat
-- [ ] Melakukan minimal 3 commit
+- [x] Melakukan minimal 3 commit
 - [x] Menerapkan HTML Semantik (header, main, footer)
-- [ ] Formulir sudah aksesibel (label + for/id)
-- [ ] Layout Mobile-First (1 kolom)
-- [ ] Layout Desktop (2 kolom) pakai Grid/Flexbox
-- [ ] Menerapkan JavaScript Live Preview (minimal 3 input)
+- [x] Formulir sudah aksesibel (label + for/id)
+- [x] Layout Mobile-First (1 kolom)
+- [x] Layout Desktop (2 kolom) pakai Grid/Flexbox
+- [x] Menerapkan JavaScript Live Preview (minimal 3 input)
