@@ -1,4 +1,4 @@
-- [ ] Repositori GitHub sudah dibuat
+- [x] Repositori GitHub sudah dibuat
 - [ ] Melakukan minimal 3 commit
 - [ ] Menerapkan HTML Semantik (header, main, footer)
 - [ ] Formulir sudah aksesibel (label + for/id)
